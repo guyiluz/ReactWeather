@@ -25066,7 +25066,6 @@
 	    var encodedLocation = encodeURIComponent(location);
 	    var requesUrl = OPEN_WEATHER_MAP_URL + '&q=' + encodedLocation;
 	    return axios.get(requesUrl).then(function (res) {
-	      debugger;
 	      if (res.data.cod && res.data.message) {
 	        throw new Error(res.data.message);
 	      } else {
