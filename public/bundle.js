@@ -26573,21 +26573,23 @@
 	'use strict';
 
 	var React = __webpack_require__(1);
-	/*
-	var About = React.createClass({
-	  render: function () {
-	    return (
-	      <h3>About Component</h3>
-	    )
-	  }
-	});
-	*/
+
 	var About = function About(props) {
 
-	  return React.createElement(
-	    'h3',
+	  return;
+	  React.createElement(
+	    'div',
 	    null,
-	    'About Component'
+	    React.createElement(
+	      'h3',
+	      null,
+	      'About '
+	    ),
+	    React.createElement(
+	      'p',
+	      null,
+	      'Wellcome to the About page '
+	    )
 	  );
 	};
 
