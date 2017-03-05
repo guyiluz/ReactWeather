@@ -26576,8 +26576,7 @@
 
 	var About = function About(props) {
 
-	  return;
-	  React.createElement(
+	  return React.createElement(
 	    'div',
 	    null,
 	    React.createElement(
