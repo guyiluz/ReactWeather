@@ -24921,6 +24921,7 @@
 	    'div',
 	    null,
 	    React.createElement(Nav, null),
+	    React.createElement('br', null),
 	    React.createElement(
 	      'div',
 	      { className: 'row' },
@@ -26685,24 +26686,51 @@
 /* 254 */
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';
+	"use strict";
 
 	var React = __webpack_require__(8);
 
 	var About = function About(props) {
 
 	  return React.createElement(
-	    'div',
-	    null,
+	    "div",
+	    { className: "text-center" },
 	    React.createElement(
-	      'h3',
+	      "h3",
 	      null,
-	      'About '
+	      "About "
 	    ),
 	    React.createElement(
-	      'p',
+	      "h4",
 	      null,
-	      'Wellcome to the About page '
+	      "This is a weather app bulid on React"
+	    ),
+	    React.createElement(
+	      "p",
+	      null,
+	      "Here are some of the tools i used: "
+	    ),
+	    React.createElement(
+	      "ul",
+	      null,
+	      React.createElement(
+	        "li",
+	        null,
+	        React.createElement(
+	          "a",
+	          { herf: "https://openweathermap.org/" },
+	          "openWeatherMap"
+	        )
+	      ),
+	      React.createElement(
+	        "li",
+	        null,
+	        React.createElement(
+	          "a",
+	          { herf: "https://facebook.github.io/react/" },
+	          "React"
+	        )
+	      )
 	    )
 	  );
 	};
