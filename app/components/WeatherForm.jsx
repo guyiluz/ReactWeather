@@ -20,7 +20,7 @@ this.props.onSearch(location)
       <div>
 
       <form onSubmit={this.onFormSubmit}>
-      <input type = 'text' ref="location"/>
+      <input type = 'search' placeholder="Get weather by city" ref="location"/>
       <button  className="button expanded hollow "> Get Weather</button>
 
       </form>
