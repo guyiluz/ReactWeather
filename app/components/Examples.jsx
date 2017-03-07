@@ -10,12 +10,12 @@ var Examples=(props)=>{
   <ol>
     <li>
 
-      <Link to="/?loction=Tel-Aviv "> Tel-Aviv </Link>
+      <Link to="/?location=Tel-Aviv "> Tel-Aviv </Link>
 
     </li>
     <li>
 
-      <Link to="/?loction=Rio"> Rio</Link>
+      <Link to="/?location=Rio"> Rio</Link>
 
       </li>
 
